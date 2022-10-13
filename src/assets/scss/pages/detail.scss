@@ -1,0 +1,99 @@
+.product-detail {
+    .container {
+      .more-detail {
+        align-items: center;
+        .image {
+          width: 334px;
+          height: 355px;
+          background-color: $c4-bg-light-gray;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 58px 128px 117px 65px;
+          @media screen and (max-width: 992px) {
+            width: 80%;
+            height: 100%;
+          }
+          img {
+            
+          }
+        }
+        .part-info {
+          h2 {
+            font-weight: $text-light;
+            font-size: $text-bigger;
+            line-height: 36px;
+          }
+          p {
+            font-weight: $text-regular;
+            font-size: $text-small;
+            line-height: 19px;
+          }
+          h3 {
+            font-weight: $text-semiBold;
+            font-size: 24px;
+            line-height: 29px;
+            color: $c4-green;
+          }
+          .size {
+            margin-top: 40px;
+            span {
+              padding: 10px;
+              margin-right: 21px;
+              background-color: $c6-bg-dark-gray;
+              font-weight: $text-bold;
+              font-size: $text-big;
+              line-height: 29px;
+              display: inline-block;
+              margin-bottom: 15px;
+            }
+          }
+          #price {
+            font-weight: $text-bold;
+            font-size: $text-bigger;
+            line-height: 36px;
+            color: $c6-red;
+            display: inline-block;
+            margin: 27px 0 17px 0;
+          }
+          .number-of-product {
+            #plus {
+              padding: 4px 12px;
+              font-weight: $text-regular;
+              font-size: $text-bigger;
+              line-height: 36px;
+              border: none;
+              background: $c7-bg-gradient;
+              color: $c7-white;
+            }
+            span {
+              font-weight: $text-regular;
+              font-size: $text-bigger;
+              line-height: 36px;
+              display: inline-block;
+              padding: 0 20px;
+            }
+            #minus {
+              padding: 4px 14px;
+              font-weight: $text-regular;
+              font-size: $text-bigger;
+              line-height: 36px;
+              border: none;
+              background: $c7-bg-gradient;
+              color: $c7-white;
+            }
+          }
+          button {
+            padding: 18px 24px;
+            font-weight: $text-semiBold;
+            font-size: $text-big;
+            line-height: 29px;
+            color: $c7-white;
+            background: $c8-bg-gradient;
+            border: none;
+            margin-top: 7px;
+          }
+        }
+      }
+    }
+  }

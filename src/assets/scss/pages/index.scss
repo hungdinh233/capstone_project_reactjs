@@ -1,0 +1,153 @@
+// @import '../../assets/scss/themes/variable';
+
+.carousel {
+    background-image: url('../../img/image\ 6.png');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    
+  
+    .container {
+      .slide {
+        .carousel-indicators {
+          bottom: 108px !important;
+          button {
+            width: 15px;
+            height: 15px;
+            border: 1px solid rgba(0, 0, 0, 0.13);
+            border-radius: 50%;
+          }
+        }
+        .carousel-inner {
+          .carousel-item {
+            .image-shoes {
+              img {
+              }
+            }
+            .content-right {
+              h1 {
+              }
+              p {
+              }
+              a {
+                width: 175px;
+                height: 69px;
+                background-color: $c2-bg-yellow;
+                text-decoration: none;
+                color: $c1-black;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: $text-thin;
+                font-size: $text-big;
+                line-height: 29px;
+              }
+            }
+          }
+        }
+        .carousel-control-prev-icon {
+          background-image: url("../../img/Polygon\ 2.png");
+          margin-left: -270px;
+          width: 66px;
+          height: 75px;
+          
+        }
+        .carousel-control-next-icon {
+          background-image: url("../../img/Polygon\ 1.png");
+          margin-right: -270px ;
+          width: 66px;
+          height: 75px;
+          
+        }
+      }
+    }
+  }
+  .product-feature {
+    padding-top: 46px;
+    h1 {
+      text-align: center;
+      margin-bottom: 89px;
+      font-weight: $text-regular;
+      font-size: $text-xl;
+      line-height: 48px;
+    }
+    .container {
+      .row {
+        .item {
+          padding: 30px 30px;
+          .cover {
+            background-color: $c4-bg-light-gray;
+            width: 334px;
+            margin: auto;
+  
+            .pro-image {
+              text-align: center;
+              padding: 45px 57px 30px 57px;
+              img {
+              }
+            }
+            .pro-txt {
+              margin-left: 23px;
+              h2 {
+                font-weight: $text-light;
+                font-size: $text-big;
+                line-height: 29.05px;
+                padding: 0 23px;
+                height: 58px;
+              }
+              span {
+                padding: 0 23px;
+                padding-bottom: 8px;
+                font-weight: $text-light;
+                font-size: $text-medium;
+                line-height: 24px;
+                color: $c2-gray;
+                display: block;
+                display: -webkit-box;
+                max-width: 100%;
+                height: 43px;
+                margin: 0 auto;
+                font-size: 14px;
+                line-height: 1;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                text-overflow: ellipsis;
+              }
+            }
+            .buy-click {
+              margin-top: 13px;
+              a {
+                width: 175px;
+                height: 69px;
+                background-color: $c2-bg-yellow;
+                text-decoration: none;
+                color: $c1-black;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: $text-thin;
+                font-size: $text-big;
+                line-height: 29px;
+                transition: all 0.3s;
+                &:hover {
+                  background-color: $c5-bg-light-yellow;
+                }
+              }
+              p {
+                width: 160px;
+                height: 69px;
+                background-color: $c3-bg-gray;
+                font-weight: $text-bold;
+                font-size: $text-big;
+                text-align: center;
+                line-height: 64px;
+                margin: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
